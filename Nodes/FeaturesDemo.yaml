@@ -1,0 +1,61 @@
+Name: FeaturesDemo
+Id: g=27eb72bf8632f8e03d77f9670e71aee5
+Type: ProjectFolder
+Children:
+- Name: BranchingEnabled
+  Id: g=72ba73626c7e035c0ab6c5c20315cc32
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Locales
+  Id: g=56afdc524728373f1dee46375eb9d716
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US","it-IT","zh-CN"]
+- Name: LocaleFallbackList
+  Id: g=cbe5df6b8ca233996d9b4c45e6aa134d
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["en-US"]
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Users/Users.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- File: AlarmTypes/AlarmTypes.yaml
+- Name: RecipeSchema
+  Id: g=8476c29a627a315a608c8fdac6f77778
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"444fd04b7e8899c0ad4ea53e4555e08d","Namespace":38}
+  Children:
+  - Name: Kind
+    Id: g=710e58be1e6af0bc4f18a2c046c12a48
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"f4f1cb4324441b489bf03167cb4986c9","Namespace":38}
+- File: RuntimeObjectUI/RuntimeObjectUI.yaml
+- Name: StyleRecipeSchema
+  Id: g=dad2cba5cc8c529c4eb5f951d9768d67
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"1358f8b23bb27e83044e3e940c1d6e94","Namespace":38}
+  Children:
+  - Name: Kind
+    Id: g=66b99bea844a21fcc97cc6de09e25a40
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"6bb54b2f906bb83dc142fc0f36d252d0","Namespace":38}

@@ -1,0 +1,29 @@
+Name: CustomBehavior
+Id: g=d9bcf9369893a729e8b53208bde551ef
+Type: FolderType
+Children:
+- Name: MotorWithBehavior1
+  Id: g=dfb6bd5dc078d0f7e05e2089ecf4a423
+  Type: MotorWithBehavior
+  Children:
+  - Name: PowerOn
+    Id: g=c5ac64ba1757edb4095000c2776caaab
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=a2b844c00f2a7370b56e7381c8db5ce4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Id: g=dea420ff2136c9c1741afe0fecc48627
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: g=78a29daac1ccaf51c466cdc40edc253c
+    Direction: Forward
+  - Class: Reference
+    Target: g=fe4198967285d522364ffa0fb994aa7e
+    Direction: Forward

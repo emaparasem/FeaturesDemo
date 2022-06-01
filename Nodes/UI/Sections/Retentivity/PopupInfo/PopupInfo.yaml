@@ -1,0 +1,100 @@
+Name: PopupInfo
+Id: g=6a2d1364550212ec20cea2b3e5345b1a
+Type: FolderType
+Children:
+- Name: QInfoTranslations
+  Id: g=0c2e30d49a2bfaf6b25174787ab8c8a9
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=b87d4dd7a861a54a2f56cdbb3eda72ee
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=b120e56dc43257b919dbe38148c3a439
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=b2c2e47cee6403d27b11951c56c8922e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=373dd13050d1af91df12e3340e21a1e8
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=06502c0557c10e6b47712ddd706cc76c
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=75fc584fe07668d13f53e46e715fbadc
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=93aa6afb83ca965926334263ce9ccb9a
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=a5e3cd787245192398c6d077cb0daab2
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=d9151d100986324cb297fcfd7deba1f0
+              Type: DataBind
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=a22566ec8ebb672031595672dbce7915
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=98590fcc577dd5ad8a5e9b9073c5f96a
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=04aacbf1117380a9953298cf5dc716bf
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=aa2c373fd0c78a402fd17b0cb3f9d72c
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=308e0a89dad97a81c72f0f3f3e9f17da
+              Type: DataBind
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=1c21c6c5fdb99b61feb2c496d4d1f141
+      Type: ns=7;ScrollView
+      Children:
+      - Name: Label1
+        Id: g=9c9441832172735262cd637edf9c3792
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=986fd5037e9e3661e1af5c0a41c49591
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Try editing the editable labels and see the \nchange in the application. \nIf the checkbox retentivity is selected, \nchanges will remain saved."}

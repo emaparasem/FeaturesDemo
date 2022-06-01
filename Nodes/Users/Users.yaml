@@ -1,0 +1,41 @@
+Name: Users
+Id: g=24ab6bae6befe08d67379f5f22c33b63
+Type: FolderType
+Children:
+- Name: Guest
+  Id: g=0803d24e37bf8d9e0c9014febedc69a8
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=ac0021f1fcd6ef4932ff29df5ce87799
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: Password
+    Id: g=00bab52a7e653d743d17ea3b2e423684
+    Type: BaseVariableType
+    DataType: Password
+    ReferenceType: HasProperty
+    Value: ""
+- Name: UserMail
+  Id: g=a155cf67f82de4a3e4c82a830acc383f
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=d4f8342211eae2f5ef134d962c9912e2
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: Email
+    Id: g=634852aff3bd926746c8cc933bb1f8f8
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "email.email@email.com"
+- File: MainUsers/MainUsers.yaml
+- File: Groups/Groups.yaml

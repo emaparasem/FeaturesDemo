@@ -1,0 +1,88 @@
+Name: MainUsers
+Id: g=bace772d93ca22e1fb78de2f86da32fb
+Type: FolderType
+Children:
+- Name: User1
+  Id: g=4b4675f3068e0c9454aaae38147c99ca
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=d5e019b89c3a2808ed79ea103ca7a6ba
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: Password
+    Id: g=267b7c9bbbd5d284962b5db42cb45188
+    Type: BaseVariableType
+    DataType: Password
+    ReferenceType: HasProperty
+    Value: "User1"
+  - Class: Reference
+    Type: HasGroup
+    Target: g=3e60c05a1dc1971e15c7b02f2bc13fbd
+    Direction: Forward
+  - Name: MeasurementSystem
+    Id: g=de2065a94de5b005a2e6ec541e522f0e
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+- Name: User2
+  Id: g=8922f9c307db44e9d42a12bf4a13be68
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=0a4d94eb1d28faffc1a79bb42266e94f
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["it-IT"]
+  - Name: Password
+    Id: g=baa8b7d05994e5c3e75ac74b070bc3ef
+    Type: BaseVariableType
+    DataType: Password
+    ReferenceType: HasProperty
+    Value: "User2"
+  - Class: Reference
+    Type: HasGroup
+    Target: g=227fa5129da0443aa824f862ff362ccf
+    Direction: Forward
+  - Name: MeasurementSystem
+    Id: g=25b4280a2fed099e795e1dcf72f158dc
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+- Name: User3
+  Id: g=a13632c2ca45d637bd76ed7e66dea019
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=6ea98fd2892dfaea6b47b46a6add7715
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["zh-CN"]
+  - Name: Password
+    Id: g=41f8d631bc98a6ad476f4a6115bb102f
+    Type: BaseVariableType
+    DataType: Password
+    ReferenceType: HasProperty
+    Value: "User3"
+  - Class: Reference
+    Type: HasGroup
+    Target: g=ffc42fcf3307e18032a057e5aa64d245
+    Direction: Forward
+  - Name: MeasurementSystem
+    Id: g=83b3605cfefeef340cfc3991a6562b2b
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
