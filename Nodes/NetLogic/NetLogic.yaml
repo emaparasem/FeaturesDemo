@@ -103,12 +103,6 @@ Children:
           Type: DataBind
           DataType: NodePath
           Value: "../../../Table@BrowseName"
-          Children:
-          - Name: Mode
-            Id: g=e137b96f4a32e399ad4e59c26eb9ebdf
-            Type: BaseVariableType
-            DataType: DataBindModeType
-            Value: 2
       - Name: ns=5;Source1
         Id: g=7ed647535f238261ec828e1ad3b57dbf
         Type: BaseDataVariableType
@@ -120,12 +114,6 @@ Children:
           Type: DataBind
           DataType: NodePath
           Value: "../../../From"
-          Children:
-          - Name: Mode
-            Id: g=3ab7dbddcef2a13710a1b6caf7a6f383
-            Type: BaseVariableType
-            DataType: DataBindModeType
-            Value: 2
       - Name: ns=5;Source2
         Id: g=6f4ea3e0b1e06dc10d4288c6a627698b
         Type: BaseDataVariableType
@@ -137,12 +125,6 @@ Children:
           Type: DataBind
           DataType: NodePath
           Value: "../../../To"
-          Children:
-          - Name: Mode
-            Id: g=7a9771fdd0133535aaaf304fe31add3b
-            Type: BaseVariableType
-            DataType: DataBindModeType
-            Value: 2
   - Name: From
     Id: g=2791fc8c7907ee729bec5ae24fd1fc03
     Type: BaseDataVariableType

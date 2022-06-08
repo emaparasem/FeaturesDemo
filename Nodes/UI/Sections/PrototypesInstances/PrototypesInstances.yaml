@@ -2097,13 +2097,6 @@ Children:
                       Type: DataBind
                       DataType: NodePath
                       Value: "{Item}/ActiveState/Id"
-                      Children:
-                      - Name: Mode
-                        Id: g=2699aafa71d0d5c9c13af2135b1c282a
-                        Type: BaseVariableType
-                        DataType: DataBindModeType
-                        ModellingRule: Optional
-                        Value: 2
                   - Name: Pairs
                     Id: g=4f6ce0426e3a05f388a3a602a6a2c3dd
                     Type: BaseObjectType
@@ -2200,13 +2193,6 @@ Children:
                       Type: DataBind
                       DataType: NodePath
                       Value: "{Item}/AckedState/Id"
-                      Children:
-                      - Name: Mode
-                        Id: g=e215dfc45663365906e409accf3bbd09
-                        Type: BaseVariableType
-                        DataType: DataBindModeType
-                        ModellingRule: Optional
-                        Value: 2
                   - Name: Pairs
                     Id: g=8ff53a6e73949fa275786737fc0eb34e
                     Type: BaseObjectType
@@ -2303,13 +2289,6 @@ Children:
                       Type: DataBind
                       DataType: NodePath
                       Value: "{Item}/ConfirmedState/Id"
-                      Children:
-                      - Name: Mode
-                        Id: g=671029083a9a46601a9c35e4678ee479
-                        Type: BaseVariableType
-                        DataType: DataBindModeType
-                        ModellingRule: Optional
-                        Value: 2
                   - Name: Pairs
                     Id: g=39572a4d1b24a43e5e8f2d91465a13ed
                     Type: BaseObjectType

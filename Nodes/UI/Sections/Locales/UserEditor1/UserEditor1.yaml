@@ -552,7 +552,6 @@ Children:
               Type: BaseVariableType
               DataType: Argument
               ReferenceType: HasProperty
-              ModellingRule: None
               ValueRank: OneDimension
               ArrayDimensions: [0]
               Value: [{"TypeId":{"Id":296},"Body":{"Name":"userToDelete","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
@@ -1083,12 +1082,6 @@ Children:
                 Type: DataBind
                 DataType: NodePath
                 Value: "{SelectedUser}/Password"
-                Children:
-                - Name: Mode
-                  Id: g=893bb669ba177f100d0e08bef0b58c31
-                  Type: BaseVariableType
-                  DataType: DataBindModeType
-                  Value: 0
             - Name: Width
               Id: g=bd2b7c60eb70cd05f2766888be750bcb
               Type: BaseVariableType
@@ -1365,12 +1358,6 @@ Children:
                 Type: DataBind
                 DataType: NodePath
                 Value: "{SelectedUser}/LocaleIds[0]"
-                Children:
-                - Name: Mode
-                  Id: g=39ea8b953239e0bbbecdf7c28066b725
-                  Type: BaseVariableType
-                  DataType: DataBindModeType
-                  Value: 0
             - Name: SelectedItem
               Id: g=56222471da1382ec707675aa9feb99ac
               Type: NodePointer
@@ -1788,12 +1775,11 @@ Children:
           Name: ApplyGroups
           Id: g=595bfb60710b9661d7f063cf75ecdf1c
           Children:
-          - Name: ns=0;InputArguments
+          - Name: InputArguments
             Id: g=583a57eaf1d629cddff16e3d93ad4118
             Type: BaseVariableType
             DataType: Argument
             ReferenceType: HasProperty
-            ModellingRule: None
             ValueRank: OneDimension
             ArrayDimensions: [0]
             Value: [{"TypeId":{"Id":296},"Body":{"Name":"user","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
@@ -1953,7 +1939,6 @@ Children:
         Type: BaseVariableType
         DataType: Argument
         ReferenceType: HasProperty
-        ModellingRule: None
         ValueRank: OneDimension
         ArrayDimensions: [0]
         Value: [{"TypeId":{"Id":296},"Body":{"Name":"username","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"password","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"locale","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
@@ -1962,7 +1947,6 @@ Children:
         Type: BaseVariableType
         DataType: Argument
         ReferenceType: HasProperty
-        ModellingRule: None
         ValueRank: OneDimension
         ArrayDimensions: [0]
         Value: [{"TypeId":{"Id":296},"Body":{"Name":"result","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
@@ -2017,7 +2001,6 @@ Children:
         Type: BaseVariableType
         DataType: Argument
         ReferenceType: HasProperty
-        ModellingRule: None
         ValueRank: OneDimension
         ArrayDimensions: [0]
         Value: [{"TypeId":{"Id":296},"Body":{"Name":"user","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
@@ -2378,7 +2361,6 @@ Children:
         Type: BaseVariableType
         DataType: Argument
         ReferenceType: HasProperty
-        ModellingRule: None
         ValueRank: OneDimension
         ArrayDimensions: [0]
         Value: [{"TypeId":{"Id":296},"Body":{"Name":"username","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"password","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"locale","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
@@ -2387,7 +2369,6 @@ Children:
         Type: BaseVariableType
         DataType: Argument
         ReferenceType: HasProperty
-        ModellingRule: None
         ValueRank: OneDimension
         ArrayDimensions: [0]
         Value: [{"TypeId":{"Id":296},"Body":{"Name":"result","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

@@ -6823,7 +6823,6 @@ Children:
       - Name: RecipesEditorUISetup
         Id: g=705711f49237580d011ce28ccfbe3854
         Type: NetLogic
-        ModellingRule: None
         Children:
         - Class: Method
           Name: Setup
@@ -10894,9 +10893,6 @@ Children:
           - Class: Method
             Name: UpdateStatus
             Id: g=15b6c272623f120814d8d28562597502
-          - Class: Method
-            Name: UpdateStatus
-            Id: g=8a54723079810ad4fb57b9d2943b0f00
         - Name: EventoMousedownhandler1
           Id: g=bd50b504e036cfe608ce5bebda6d3460
           Type: EventHandler
@@ -18657,13 +18653,6 @@ Children:
                         Type: DataBind
                         DataType: NodePath
                         Value: "../../../../../../../../VariableSelection/SelectedItem@BrowseName"
-                        Children:
-                        - Name: Mode
-                          Id: g=4100727f61eb711e7f2f4b28ba5f8cac
-                          Type: BaseVariableType
-                          DataType: DataBindModeType
-                          ModellingRule: Optional
-                          Value: 2
                     - Name: ns=5;Source1
                       Id: g=6ee7dcb9b539fc46c260a8d8405410cf
                       Type: BaseDataVariableType
@@ -18675,13 +18664,6 @@ Children:
                         Type: DataBind
                         DataType: NodePath
                         Value: "../../../../../../../../ValueVariable/Value"
-                        Children:
-                        - Name: Mode
-                          Id: g=910d9bd5a06a497a141e60abef524d13
-                          Type: BaseVariableType
-                          DataType: DataBindModeType
-                          ModellingRule: Optional
-                          Value: 2
                 - Name: ArrayIndex
                   Id: g=bc5858096c7bcd8fb6f085edf36f6385
                   Type: BaseDataVariableType
@@ -24832,13 +24814,6 @@ Children:
                       Type: DataBind
                       DataType: NodePath
                       Value: "{Item}/IsDirectory"
-                      Children:
-                      - Name: Mode
-                        Id: g=862886e6adb37c58ef3af61b1cc5e587
-                        Type: BaseVariableType
-                        DataType: DataBindModeType
-                        ModellingRule: Optional
-                        Value: 2
                   - Name: Pairs
                     Id: g=d92bebbe13f35525cfbfb21bb53bba03
                     Type: BaseObjectType
@@ -24986,13 +24961,6 @@ Children:
                       Type: DataBind
                       DataType: NodePath
                       Value: "{Item}/Size"
-                      Children:
-                      - Name: Mode
-                        Id: g=24bdc0ad00337e304384b97f1353193c
-                        Type: BaseVariableType
-                        DataType: DataBindModeType
-                        ModellingRule: Optional
-                        Value: 2
         - Name: SelectedItem
           Id: g=9c1de2e17c3a75de31eccabf7e38a002
           Type: NodePointer

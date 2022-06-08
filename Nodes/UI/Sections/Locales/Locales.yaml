@@ -934,18 +934,6 @@ Children:
                   ValueRank: OneDimension
                   ArrayDimensions: [0]
                   Value: [{"TypeId":{"Id":296},"Body":{"Name":"message","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
-              - Class: Method
-                Name: SetOutputMessage
-                Id: g=0fedcbd3b609bfed50a7f1a0ab615bdf
-                Children:
-                - Name: ns=0;InputArguments
-                  Id: g=001f5dd1acf5ae6a36c86d5e6e31f2a9
-                  Type: BaseVariableType
-                  DataType: Argument
-                  ReferenceType: HasProperty
-                  ValueRank: OneDimension
-                  ArrayDimensions: [1]
-                  Value: [{"TypeId":{"Id":296},"Body":{"Name":"message","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
             - Name: TextColor
               Id: g=b1994aa9e954057758aeb784476f243c
               Type: BaseDataVariableType
@@ -1015,26 +1003,6 @@ Children:
                   ReferenceType: HasProperty
                   ValueRank: OneDimension
                   ArrayDimensions: [0]
-                  Value: [{"TypeId":{"Id":296},"Body":{"Name":"loginResult","DataType":{"Id":1},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
-              - Class: Method
-                Name: PerformLogin
-                Id: g=1cc4c9e9b1de61af44cc1aa69eccf3db
-                Children:
-                - Name: ns=0;InputArguments
-                  Id: g=9c6d7251c123dcec05b10e72f64cb5c8
-                  Type: BaseVariableType
-                  DataType: Argument
-                  ReferenceType: HasProperty
-                  ValueRank: OneDimension
-                  ArrayDimensions: [2]
-                  Value: [{"TypeId":{"Id":296},"Body":{"Name":"username","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"password","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
-                - Name: ns=0;OutputArguments
-                  Id: g=b7f9d12ab41ee061288fcd9dc4210ace
-                  Type: BaseVariableType
-                  DataType: Argument
-                  ReferenceType: HasProperty
-                  ValueRank: OneDimension
-                  ArrayDimensions: [1]
                   Value: [{"TypeId":{"Id":296},"Body":{"Name":"loginResult","DataType":{"Id":1},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
             - Name: EventHandler1
               Id: g=8ff08417cbf00fb542bd28d19af49c23
